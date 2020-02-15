@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="about-me container">
+            <div class="avatar">
+                <img src="./OWyb-Lvj_u4-2.jpg" alt="">
+            </div>
+            <div>
+                <div class="name">
+                    <h2>Kukareko Olga</h2>
+                </div>
+                <div class="contacts">
+                    <h2>Contacts:</h2>
+                    <ul>
+                        <li><strong>mobile:</strong> +375(29)750-73-78</li>
+                        <li><strong>skype:</strong> live:olya.kukareko</li>
+                        <li><strong>telegram:</strong> @OlgaKukareko</li>
+                        <li><strong>email:</strong> olya.kukareko@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="info container">
+        <section class="purpose">
+            <h2>My purpose:</h2>
+            <p>I am ready to learn something new. I like to develop in this direction. I want to work in a big company to develop and improve my knowledge.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills:</h2>
+            <ol>
+                <li><strong>HTML, CSS</strong></li>
+                <li><strong>LESS, SASS</strong></li>
+                <li><strong>BEM</strong></li>
+                <li><strong>JavaScript</strong>(basic)</li>
+                <li><strong>Photoshop, Avocode,Figma</strong></li>
+                <li><strong>Bitrix</strong></li>
+            </ol>
+        </section>
+        <section class="code-link">
+            <h2>Code Examples:</h2>
+            <a class="git_link" href="https://github.com/OlgaKukareko/My_Homeworks">Github training tasks</a>
+            <pre>
+                function decode(expr) {
+                    MORSE_TABLE['**********'] = ' ';
+                    var str = '';
+                    for (var i = 0; i < expr.length; i += 10) {
+                        var newStr = expr.slice(i, i + 10);
+                        var strMorse = '';
+                        strMorse += newStr.replace(/00/g, '').replace(/10/g, '.').replace(/11/g, '-');
+                        str += MORSE_TABLE[strMorse];
+                    }
+                    return str; }
+            </pre>
+        </section>
+        <section class="experience">
+            <h2>Experience:</h2>
+            <p>apprenticeship at BrainForce</p>
+        </section>
+        <section class="education">
+            <h2>Education:</h2>
+            <ol>
+                <li> 2007-2012 <strong>Belarusian State University of Culture and Arts</strong> (decorative arts, artist)
+                </li>
+                <li>2018-2019 <strong>Stormnet Technology</strong> (Programming HTML, CSS, JavaScript)</li>
+                <li>2018-2019 <strong> HTML-Academy</strong></li>
+                <li>2018-2019 <strong>Udemy</strong></li>
+            </ol>
+        </section>
+        <section class="english-level">
+            <h2>English level</h2>
+            <ul>
+                <li><strong>A2 - Elementary</strong>(finish). Start Pre-Intermediate</Pre-Intermediate></li>
+                <li>I continue to study English at a foreign language school <strong>Underground Language club</strong>.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
